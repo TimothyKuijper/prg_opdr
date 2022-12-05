@@ -17,6 +17,14 @@ class App
         g.stroke();
         g.fill();
         g.beginPath();
+        g.moveTo(275,140);
+        g.lineTo(275,100);
+        g.lineTo(255,100);
+        g.lineTo(255,125)
+        g.closePath();
+        g.fill();
+        g.beginPath();
+        g.fillStyle() = "black"
         g.moveTo(210,200)
         g.lineTo(210,175)
         g.lineTo(185,175)
@@ -30,12 +38,6 @@ class App
         g.lineTo(210,187.5)
         g.closePath();
         g.stroke();
-        g.beginPath();
-        g.moveTo(275,140);
-        g.lineTo(275,100);
-        g.lineTo(255,100);
-        g.lineTo(255,125)
-        g.closePath();
         g.fill();
 
 
