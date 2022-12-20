@@ -12,13 +12,14 @@ class App
     tekenCircle()
     {
         let a = (Math.random() * 1601);
-        let b = (Math.random() * 601);
+        let b = (Math.random() * 801);
+        let c = (Math.random() * 90);
         let canvas = document.getElementById("canvas");
         let g = canvas.getContext("2d");
         console.log(canvas);
         g.beginPath();
-        g.fillstyle = "yellow"
-        g.arc(a,b,20,0,Math.PI*2);
+        g.fillStyle = "red";
+        g.arc(a,b,c,0,Math.PI*2);
         g.stroke();
         g.fill();
         g.closePath();

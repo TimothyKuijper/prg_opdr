@@ -17,7 +17,7 @@ class App
         console.log(copyright);
         console.log(distribution);
         console.log(darkmode);
-        let title = document.getElementById("newstitle");
+        let title = document.getElementsByClassName("background");
         let RG = Math.random();
         
         if (RG == 0)
