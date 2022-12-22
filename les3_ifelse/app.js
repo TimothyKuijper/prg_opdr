@@ -17,7 +17,7 @@ class App
         console.log(copyright);
         console.log(distribution);
         console.log(darkmode);
-        let title = document.getElementsByClassName("background");
+        let title = document.getElementById("title")
         let RG = Math.random();
         
         if (RG == 0)
@@ -39,14 +39,6 @@ class App
         {
             title.style.backgroundColor ="#07f5c9";
         }
-
-    
-        //.gamenews headline{
-
-        //}
-        //.gamenews{
-
-        //}
     }
 }
 
